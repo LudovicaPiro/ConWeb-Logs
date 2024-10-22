@@ -1,0 +1,234 @@
+---
+Intent: Navigare
+Expected result: {'intent': 'navigare', 'entities': ['Wikimedia', 'Italia'] (at least one)}
+---
+Utterance: apri Wikimedia Italia
+Result: {'intent': 'navigare', 'entities': ['Wikimedia', 'Italia']}
+---
+Utterance: vai a Wikimedia Italia
+Result: {'intent': 'navigare', 'entities': ['Wikimedia', 'Italia']}
+---
+Utterance: portami a Wikimedia Italia
+Result: {'intent': 'navigare', 'entities': ['Wikimedia', 'Italia']}
+---
+Utterance: portami verso la pagina Wikimedia Italia
+Result: {'intent': 'navigare', 'entities': ['pagina', 'Wikimedia', 'Italia']}
+---
+Utterance: clicca su Wikimedia Italia
+Result: {'intent': 'navigare', 'entities': ['Wikimedia', 'Italia']}
+---
+Utterance: devo andare verso Wikimedia Italia
+Result: {'intent': 'navigare', 'entities': ['Wikimedia', 'Italia']}
+---
+Utterance: devo approfondire la pagina a cui punta il link Wikimedia Italia
+Result: {'intent': 'navigare', 'entities': ['link', 'Wikimedia', 'Italia']}
+---
+Utterance: ho bisogno di andare verso Wikimedia Italia
+Result: {'intent': 'navigare', 'entities': ['wikimedia', 'Italia']}
+---
+Utterance: non è questa la pagina che mi interessa ma quella collegata al link Wikimedia Italia
+Result: {'intent': 'navigare', 'entities': ['link', 'Wikimedia', 'Italia']}
+---
+
+
+---
+Intent: Leggere
+Expected result: {'intent': 'leggere', 'entities': ['Voci', 'di', 'qualità'] (at least one)}
+---
+Utterance: leggi Voci di qualità
+Result: {'intent': 'leggere', 'entities': ['voci', 'qualità']}
+---
+Utterance: leggimi Voci di qualità
+Result: {'intent': 'leggere', 'entities': ['voci', 'qualità']}
+---
+Utterance: vorrei che leggessi Voci di qualità
+Result: {'intent': 'leggere', 'entities': ['voci', 'qualità']}
+---
+Utterance: vorrei leggere il paragrafo di Voci di qualità
+Result: {'intent': 'leggere', 'entities': ['Voci', 'qualità']}
+---
+Utterance: vorrei approfondire la lettura del contenuto del paragrafo che parla di Voci di qualità
+Result: {'intent': 'leggere', 'entities': ['voci', 'qualità']}
+---
+Utterance: dimmi della parte in cui si parla di Voci di qualità
+Result: {'intent': 'leggere', 'entities': ['voci', 'qualità']}
+---
+Utterance: vorrei avere il contenuto completo della parte in cui si parla di Voci di qualità
+Result: {'intent': 'leggere', 'entities': ['voci', 'qualità']}
+---
+Utterance: dimmi l'intero contenuto del testo del paragrafo che tratta di Voci di qualità
+Result: {'intent': 'leggere', 'entities': ['Voci', 'qualità']}
+---
+
+---
+Intent: Ripetere
+Expected result: {'intent': 'ripetere', 'entities': *Not relevant*}
+---
+Utterance: ripeti
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: puoi ripetere?
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho capito, voglio riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho sentito bene
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avevo il volume troppo basso, avrei bisogno di riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avrei bisogno di avere di nuovo la lista delle istruzioni e degli elementi disponibili
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riuscito a sentire l'ultima parte
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riucito a sentire parte di quello che è stato detto
+Result: {'intent': 'ripetere', 'entities': []}
+---
+
+
+---
+Intent: Aiutare
+Expected result: {'intent': 'aiutare', 'entities': *Not relevant*}
+---
+Utterance: aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so cosa fare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: sono disorientato
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so quali sono i comandi disponibili
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: a questo punto, non ho ben chiaro quali siano le istruzioni che posso dare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di un suggerimento per proseguire
+Result: {'intent': 'aiutare', 'entities': ['suggerimento']}
+---
+Utterance: ho bisogno della lista dei comandi disponibili
+Result: {'intent': 'aiutare', 'entities': ['lista', 'comandi', 'disponibili']}
+---
+
+
+---
+Intent: Riassumere
+Expected result: {'intent': 'riassumere', 'entities': *Not relevant*}
+---
+Utterance: fammi un'overview della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto del contenuto
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai una sintesi del contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: presentami il contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+
+---
+Intent: Domandare
+Expected result: {'intent': 'domandare', 'entities': *Not relevant*}
+---
+Utterance: quali sono le tre informazioni più importanti di Voci di qualità?
+Result: {'intent': 'domandare', 'entities': []}
+---
+Utterance: cosa tratta la parte relativa a Voci di qualità?
+Result: {'intent': 'domandare', 'entities': []}
+---
+
+
+EXTRA
+
+
+---
+Intent: Navigazione - lettura link
+Expected result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: leggi i link
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link posso visitare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i link nella pagina?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali pagine posso navigare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali collegamenti sono disponibili?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i collegamenti alle altre pagine?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali collegamenti posso proseguire la navigazione?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+
+
+---
+Intent: Leggere - prossimo paragrafo
+Expected result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: avanti
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: continua a leggere
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: prosegui con la lettura
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: dimmi di più
+Result: {'intent': 'leggere', 'entities': []}
+---
+
+
+---
+Q&A
+---
+Utterance: quali sono le tre informazioni più importanti di Voci di qualità
+Result:
+Le tre informazioni più importanti della sezione "Voci di qualità" sono:
+
+1. Descrizione del LA Galaxy: Il LA Galaxy è un club calcistico statunitense con sede a Los Angeles (California) e compete nella Major League Soccer (MLS).
+
+2. Successi del LA Galaxy: Il club ha vinto cinque MLS, quattro Supporters' Shield, due U.S. Open Cup e una CONCACAF Champions' Cup nel 2000.
+
+3. Riconoscimento economico: Il LA Galaxy è la seconda franchigia più ricca della Major League Soccer secondo la classifica di Forbes.
+---
+Utterance: cosa tratta la parte relativa a Voci di qualità?
+Result:
+La parte relativa a "Voci di qualità" tratta del LA Galaxy, una squadra di calcio statunitense con sede a Los Angeles, California. Fornisce una breve panoramica sulla storia e i successi del club, menzionando che è stato fondato nel 1994 e che ha partecipato a tutte le stagioni della Major League Soccer (MLS). Il testo evidenzia i titoli vinti dalla squadra, tra cui cinque MLS, quattro Supporters' Shield e due U.S. Open Cup, nonché una CONCACAF Champions' Cup nel 2000. Inoltre, viene menzionato che il club è al secondo posto nella classifica delle franchigie più ricche della Major League Soccer secondo Forbes.
+---
+
+
+---
+Synthesize
+---
+Utterance: 'fammi un'overview della pagina', 'fai un riassunto della pagina', 'fai un riassunto del contenuto', 'fai una sintesi del contenuto della pagina', 'presentami il contenuto della pagina'
+Result:
+La pagina descrive Wikipedia come un'enciclopedia libera e collaborativa online, che incoraggia le donazioni attraverso il 5×1000 a Wikimedia Italia. Offre accesso a un'enorme varietà di voci in italiano (1.866.704 articoli) e in altre 320 lingue. La prima sezione citata riguarda la "Vetrina", con una discussione sulle unità storiche dell'Armata del Nord francese durante la Rivoluzione, altre guerre e battaglie. La pagina evidenzia poi il LA Galaxy come voce di qualità e include una sezione "Lo sapevi che..." con curiosità biografiche. Sono presentati anche eventi storici accaduti il 4 giugno, le versioni linguistiche maggiori di Wikipedia, e dettagli su altri progetti Wikimedia come Wikisource e Wikiquote. Infine, la pagina da suggerimenti su come contribuire a Wikipedia, offre assistenza per nuovi utenti, e notizie comunitarie aggiornate.
+---

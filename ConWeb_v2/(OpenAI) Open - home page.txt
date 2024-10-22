@@ -1,0 +1,262 @@
+---
+Intent: Navigare
+Expected result: {'intent': 'navigare', 'entities': ['Elezioni', 'europee', '2024'] (at least one)}
+---
+Utterance: apri Elezioni europee 2024
+Result: {'intent': 'navigare', 'entities': ['elezioni', 'europee', '2024']}
+---
+Utterance: vai a Elezioni europee 2024
+Result: {'intent': 'navigare', 'entities': ['elezioni', 'europee', '2024']}
+---
+Utterance: portami a Elezioni europee 2024
+Result: {'intent': 'navigare', 'entities': ['Elezioni', 'europee', '2024']}
+---
+Utterance: portami verso la pagina Elezioni europee 2024
+Result: {'intent': 'navigare', 'entities': ['elezioni', 'europee', '2024']}
+---
+Utterance: clicca su Elezioni europee 2024
+Result: {'intent': 'navigare', 'entities': ['elezioni', 'europee', '2024']}
+---
+Utterance: devo andare verso Elezioni europee 2024
+Result: {'intent': 'navigare', 'entities': ['Elezioni', 'europee', '2024']}
+---
+Utterance: devo approfondire la pagina a cui punta il link Elezioni europee 2024
+Result: {'intent': 'navigare', 'entities': ['elezioni', 'europee', '2024']}
+---
+Utterance: ho bisogno di andare verso Elezioni europee 2024
+Result: {'intent': 'navigare', 'entities': ['Elezioni', 'europee', '2024']}
+---
+Utterance: non è questa la pagina che mi interessa ma quella collegata al link Elezioni europee 2024
+Result: {'intent': 'navigare', 'entities': ['collegata', 'link', 'Elezioni', 'europee', '2024']}
+---
+
+
+---
+Intent: Leggere
+Expected result: {'intent': 'leggere', 'entities': ['In', 'primo', 'piano'] (at least one)}
+---
+Utterance: leggi In primo piano
+Result: {'intent': 'leggere', 'entities': ['primo']}
+---
+Utterance: leggimi In primo piano
+Result: {'intent': 'leggere', 'entities': ['primo', 'piano']}
+---
+Utterance: vorrei che leggessi In primo piano
+Result: {'intent': 'leggere', 'entities': ['primo']}
+---
+Utterance: vorrei leggere il paragrafo di In primo piano
+Result: {'intent': 'leggere', 'entities': ['primo', 'piano']}
+---
+Utterance: vorrei approfondire la lettura del contenuto del paragrafo che parla di In primo piano
+Result: {'intent': 'leggere', 'entities': ['primo', 'piano']}
+---
+Utterance: dimmi della parte in cui si parla di In primo piano
+Result: {'intent': 'leggere', 'entities': ['primo', 'piano']}
+---
+Utterance: vorrei avere il contenuto completo della parte in cui si parla di In primo piano
+Result: {'intent': 'leggere', 'entities': ['primo', 'piano']}
+---
+Utterance: dimmi l'intero contenuto del testo del paragrafo che tratta di In primo piano
+Result: {'intent': 'leggere', 'entities': ['testo', 'paragrafo', 'primo', 'piano']}
+---
+
+---
+Intent: Ripetere
+Expected result: {'intent': 'ripetere', 'entities': *Not relevant*}
+---
+Utterance: ripeti
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: puoi ripetere?
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho capito, voglio riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho sentito bene
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avevo il volume troppo basso, avrei bisogno di riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avrei bisogno di avere di nuovo la lista delle istruzioni e degli elementi disponibili
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riuscito a sentire l'ultima parte
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riucito a sentire parte di quello che è stato detto
+Result: {'intent': 'ripetere', 'entities': []}
+---
+
+
+---
+Intent: Aiutare
+Expected result: {'intent': 'aiutare', 'entities': *Not relevant*}
+---
+Utterance: aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so cosa fare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: sono disorientato
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so quali sono i comandi disponibili
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: a questo punto, non ho ben chiaro quali siano le istruzioni che posso dare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di un suggerimento per proseguire
+Result: {'intent': 'aiutare', 'entities': ['suggerimento']}
+---
+Utterance: ho bisogno della lista dei comandi disponibili
+Result: {'intent': 'aiutare', 'entities': ['lista', 'comandi', 'disponibili']}
+---
+
+
+---
+Intent: Riassumere
+Expected result: {'intent': 'riassumere', 'entities': *Not relevant*}
+---
+Utterance: fammi un'overview della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto del contenuto
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai una sintesi del contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: presentami il contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+
+---
+Intent: Domandare
+Expected result: {'intent': 'domandare', 'entities': *Not relevant*}
+---
+Utterance: quali sono le tre informazioni più importanti di In primo piano?
+Result: {'intent': 'domandare', 'entities': []}
+---
+Utterance: cosa tratta la parte relativa a In primo piano?
+Result: {'intent': 'domandare', 'entities': []}
+---
+
+
+EXTRA
+
+
+---
+Intent: Navigazione - lettura link
+Expected result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: leggi i link
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link posso visitare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i link nella pagina?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali pagine posso navigare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali collegamenti sono disponibili?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i collegamenti alle altre pagine?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali collegamenti posso proseguire la navigazione?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+
+
+---
+Intent: Leggere - prossimo paragrafo
+Expected result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: avanti
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: continua a leggere
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: prosegui con la lettura
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: dimmi di più
+Result: {'intent': 'leggere', 'entities': []}
+---
+
+
+---
+Q&A
+---
+Utterance: quali sono le tre informazioni più importanti di In primo piano?
+Result:
+Le tre informazioni più importanti nella sezione "In primo piano" sono:
+
+1. Natisone, il telefono di Patrizia Cormos funziona ancora: «Lì la verità sui soccorsi» - Si fa riferimento ad un aggiornamento sul caso dei soccorsi a Natisone, con implicazioni possibili sulla scoperta della verità tramite il telefono di Patrizia Cormos.
+
+2. Simone Borgese ai domiciliari dopo l’accusa di stupro, la rabbia dei residenti: «Non lo vogliamo tra noi. Se ne deve andare da qui» - Si tratta di una notizia di cronaca riguardante Simone Borgese, accusato di stupro e la reazione negativa dei residenti verso la sua presenza.
+
+3. Tragico incidente a Milano, scontro tra un’auto e un camion: morti un 27enne e un 29enne - Notizia di attualità che riporta un tragico incidente stradale a Milano con due giovani vittime.
+---
+Utterance: cosa tratta la parte relativa a In primo piano?
+Result:
+La sezione "In primo piano" del testo riportato tratta di diversi articoli di attualità, tra cui:
+
+1. Il caso del telefono di Patrizia Cormos a Natisone: L'articolo parla delle vicende riguardanti il telefono di Patrizia Cormos, che funziona ancora e potrebbe contenere informazioni cruciali sui soccorsi.
+2. Simone Borgese ai domiciliari: La rabbia dei residenti dopo l'accusa di stupro contro Simone Borgese e il loro rifiuto di accettarlo nella comunità.
+3. Luis Sal vs. Fedez: Luis Sal vince la battaglia legale contro Fedez, ottenendo il 100% delle quote della società Muschio Selvaggio.
+4. Protezione dell’oceano: L'iniziativa dell'Unesco e del Gruppo Prada per promuovere l'educazione sull'oceano (ocean literacy) nelle scuole di tutto il mondo.
+5. Buoni fruttiferi postali: Un articolo che spiega come liberarsi dai cosiddetti "pesi morti" dei buoni fruttiferi postali.
+6. Armi italiane all’Ucraina: Una dichiarazione di Guido Crosetto sulle armi italiane fornite all'Ucraina per colpire la Russia e il segreto attorno a questa operazione.
+7. Truffa del Pos rotto: Un ristoratore a processo per aver truffato i clienti facendo loro pagare somme esorbitanti per pizze a causa di un presunto malfunzionamento del Pos.
+8. Terre rare in Norvegia: L'importanza del nuovo giacimento di terre rare trovato in Norvegia per la transizione verde e i tempi di inizio delle estrazioni.
+9. Tragico incidente a Milano: Uno scontro tra un'auto e un camion a Milano che ha causato la morte di un 27enne e un 29enne.
+---
+
+
+---
+Synthesize
+---
+Utterance: 'fammi un'overview della pagina', 'fai un riassunto della pagina', 'fai un riassunto del contenuto', 'fai una sintesi del contenuto della pagina', 'presentami il contenuto della pagina'
+Result:
+La pagina fornisce un aggiornamento su diverse notizie e eventi di attualità, tra cui:
+
+1. Politica e Conflitti: È evidenziato l'affondo di Zelensky a Parigi dove afferma che "l’Europa non è più un continente di pace", e la reazione di Mosca verso Macron, accusando la Francia di essere pronta a entrare in guerra.
+
+2. Notizie di Cronaca: Diverse segnalazioni di fatti di cronaca che spaziano da vicende locali come l'occupazione di una casa popolare a Milano e un tentato salvataggio sul fiume Natisone, a incidenti più drammatici come l'assalto di una baby gang a Milano.
+
+3. Video e Curiosità: La sezione "Da vedere" include diversi video interessanti, come il salvataggio disperato di tre ragazzi nel Natisone e la cattura di un toro fuggito a Vicenza.
+
+4. Elezioni: Attenzioni specifiche sulle elezioni europee 2024 con dettagli su promesse e azioni particolari dei politici italiani.
+
+5. Giustizia e Polemiche: Diverse storie legate a casi di giustizia, come l’accusa di stupro contro Simone Borgese e l'azione legale di Luis Sal contro Fedez.
+
+6. Ambiente e Innovazione: Un segnalazione sulla protezione degli oceani a cura dell'Unesco e del Gruppo Prada, e una notizia riguardante l'importanza delle terre rare della Norvegia per la transizione verde.
+
+7. Sport e Spettacolo: Notizie su eventi sportivi come Roland Garros e Euro 2024, e controversie nel campo dello spettacolo, come l'eliminazione di Ghali dallo show di Radio Italia.
+
+8. Aggiornamenti Internazionali: Informazioni su situazioni globali come gli sviluppi in Ucraina, le azioni legali internazionali e le relazioni diplomatiche.
+
+La pagina si conclude invitando i lettori a iscriversi alla newsletter per ricevere aggiornamenti settimanali sulle storie più rilevanti.
+---

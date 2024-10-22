@@ -1,0 +1,208 @@
+---
+Intent: Navigare
+Expected result: {'intent': 'navigare', 'entities': ['Notizie'] (at least one)}
+---
+Utterance: apri Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+Utterance: vai a Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+Utterance: portami a Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+Utterance: portami verso la pagina Notizie
+Result: {'intent': 'leggere', 'entities': ['pagina']}
+---
+Utterance: clicca su Notizie
+Result: {'intent': 'leggere', 'entities': ['Notizie']}
+---
+Utterance: devo andare verso Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+Utterance: devo approfondire la pagina a cui punta il link Notizie
+Result: {'intent': 'leggere', 'entities': ['pagina']}
+---
+Utterance: ho bisogno di andare verso Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+Utterance: non è questa la pagina che mi interessa ma quella collegata al link Notizie
+Result: {'intent': 'leggere', 'entities': ['pagina']}
+---
+
+
+---
+Intent: Leggere
+Expected result: {'intent': 'leggere', 'entities': ['Cronache', 'dall'Italia'] (at least one)}
+---
+Utterance: leggi Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['Cronache']}
+---
+Utterance: leggimi Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['Cronache']}
+---
+Utterance: vorrei che leggessi Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['Cronache']}
+---
+Utterance: vorrei leggere il paragrafo di Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['paragrafo']}
+---
+Utterance: vorrei approfondire la lettura del contenuto del paragrafo che parla di Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['lettura']}
+---
+Utterance: dimmi della parte in cui si parla di Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['si']}
+---
+Utterance: vorrei avere il contenuto completo della parte in cui si parla di Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['completo']}
+---
+Utterance: dimmi l'intero contenuto del testo del paragrafo che tratta di Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['intero']}
+---
+
+
+---
+Intent: Ripetere
+Expected result: {'intent': 'ripetere', 'entities': *Not relevant*}
+---
+Utterance: ripeti
+Result: {'intent': 'ripetere', 'entities': ['']}
+---
+Utterance: puoi ripetere?
+Result: {'intent': 'ripetere', 'entities': ['']}
+---
+Utterance: non ho capito, voglio riascoltare
+Result: {'intent': 'ripetere', 'entities': ['']}
+---
+Utterance: non ho sentito bene
+Result: {'intent': 'ripetere', 'entities': ['']}
+---
+Utterance: avevo il volume troppo basso, avrei bisogno di riascoltare
+Result: {'intent': 'navigare', 'entities': ['volume']}
+---
+Utterance: avrei bisogno di avere di nuovo la lista delle istruzioni e degli elementi disponibili
+Result: {'intent': 'leggere', 'entities': ['lista']}
+---
+Utterance: non sono riuscito a sentire l'ultima parte
+Result: {'intent': 'leggere', 'entities': ['sono']}
+---
+Utterance: non sono riucito a sentire parte di quello che è stato detto
+Result: {'intent': 'leggere', 'entities': ['sono']}
+---
+
+
+---
+Intent: Aiutare
+Expected result: {'intent': 'aiutare', 'entities': *Not relevant*}
+---
+Utterance: aiuto
+Result: {'intent': 'aiutare', 'entities': ['']}
+---
+Utterance: ho bisogno di aiuto
+Result: {'intent': 'aiutare', 'entities': ['']}
+---
+Utterance: non so cosa fare
+Result: {'intent': 'ripetere', 'entities': ['']}
+---
+Utterance: sono disorientato
+Result: {'intent': 'leggere', 'entities': ['sono']}
+---
+Utterance: non so quali sono i comandi disponibili
+Result: {'intent': 'leggere', 'entities': ['quali sono']}
+---
+Utterance: a questo punto, non ho ben chiaro quali siano le istruzioni che posso dare
+Result: {'intent': 'leggere', 'entities': ['punto']}
+---
+Utterance: ho bisogno di un suggerimento per proseguire
+Result: {'intent': 'aiutare', 'entities': ['']}
+---
+Utterance: ho bisogno della lista dei comandi disponibili
+Result: {'intent': 'leggere', 'entities': ['lista']}
+---
+
+
+---
+Intent: Riassumere
+Expected result: {'intent': 'riassumere', 'entities': *Not relevant*}
+---
+Utterance: fammi un'overview della pagina
+Result: {'intent': 'leggere', 'entities': ['overview']}
+---
+Utterance: fai un riassunto della pagina
+Result: {'intent': 'navigare', 'entities': ['riassunto']}
+---
+Utterance: fai un riassunto del contenuto
+Result: {'intent': 'navigare', 'entities': ['riassunto']}
+---
+Utterance: fai una sintesi del contenuto della pagina
+Result: {'intent': 'leggere', 'entities': ['sintesi']}
+---
+Utterance: presentami il contenuto della pagina
+Result: {'intent': 'leggere', 'entities': ['contenuto']}
+---
+
+
+---
+Intent: Domandare
+Expected result: {'intent': 'domandare', 'entities': *Not relevant*}
+---
+Utterance: quali sono le tre informazioni più importanti di Cronache dall'Italia?
+Result: {'intent': 'leggere', 'entities': ['quali sono']}
+---
+Utterance: cosa tratta la parte relativa a Cronache dall'Italia?
+Result: {'intent': 'leggere', 'entities': ['relativa']}
+---
+
+
+EXTRA
+
+
+---
+Intent: Navigazione - lettura link
+Expected result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: leggi i link
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link posso visitare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i link nella pagina?
+Result: {'intent': 'leggere', 'entities': ['quali sono']}
+---
+Utterance: verso quali pagine posso navigare?
+Result: {'intent': 'leggere', 'entities': ['quali']}
+---
+Utterance: quali collegamenti sono disponibili?
+Result: {'intent': 'leggere', 'entities': ['collegamenti sono disponibili']}
+---
+Utterance: quali sono i collegamenti alle altre pagine?
+Result: {'intent': 'leggere', 'entities': ['quali sono']}
+---
+Utterance: verso quali collegamenti posso proseguire la navigazione?
+Result: {'intent': 'leggere', 'entities': ['quali']}
+---
+
+
+---
+Intent: Leggere - prossimo paragrafo
+Expected result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: avanti
+Result: {'intent': 'navigare', 'entities': ['']}
+---
+Utterance: continua a leggere
+Result: {'intent': 'navigare', 'entities': ['']}
+---
+Utterance: prosegui con la lettura
+Result: {'intent': 'leggere', 'entities': ['lettura']}
+---
+Utterance: dimmi di più
+Result: {'intent': 'leggere', 'entities': ['']}
+---

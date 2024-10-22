@@ -1,0 +1,252 @@
+---
+Intent: Navigare
+Expected result: {'intent': 'navigare', 'entities': ['Esplora'] (at least one)}
+---
+Utterance: apri Esplora
+Result: {'intent': 'navigare', 'entities': ['Esplora']}
+---
+Utterance: vai a Esplora
+Result: {'intent': 'navigare', 'entities': ['Esplora']}
+---
+Utterance: portami a Esplora
+Result: {'intent': 'navigare', 'entities': ['Esplora']}
+---
+Utterance: portami verso la pagina Esplora
+Result: {'intent': 'navigare', 'entities': ['esplora']}
+---
+Utterance: clicca su Esplora
+Result: {'intent': 'navigare', 'entities': ['esplora']}
+---
+Utterance: devo andare verso Esplora
+Result: {'intent': 'navigare', 'entities': ['esplora']}
+---
+Utterance: devo approfondire la pagina a cui punta il link Esplora
+Result: {'intent': 'navigare', 'entities': ['link', 'Esplora']}
+---
+Utterance: ho bisogno di andare verso Esplora
+Result: {'intent': 'navigare', 'entities': ['esplora']}
+---
+Utterance: non è questa la pagina che mi interessa ma quella collegata al link Esplora
+Result: {'intent': 'navigare', 'entities': ['link', 'Esplora']}
+---
+
+
+---
+Intent: Leggere
+Expected result: {'intent': 'leggere', 'entities': ['Telefoni', 'Android'] (at least one)}
+---
+Utterance: leggi Telefoni Android
+Result: {'intent': 'leggere', 'entities': ['Telefoni', 'Android']}
+---
+Utterance: leggimi Telefoni Android
+Result: {'intent': 'leggere', 'entities': ['Telefoni', 'Android']}
+---
+Utterance: vorrei che leggessi Telefoni Android
+Result: {'intent': 'leggere', 'entities': ['Telefoni', 'Android']}
+---
+Utterance: vorrei leggere il paragrafo di Telefoni Android
+Result: {'intent': 'leggere', 'entities': ['paragrafo', 'Telefoni', 'Android']}
+---
+Utterance: vorrei approfondire la lettura del contenuto del paragrafo che parla di Telefoni Android
+Result: {'intent': 'leggere', 'entities': ['contenuto', 'Telefoni', 'Android']}
+---
+Utterance: dimmi della parte in cui si parla di Telefoni Android
+Result: {'intent': 'leggere', 'entities': ['Telefoni', 'Android']}
+---
+Utterance: vorrei avere il contenuto completo della parte in cui si parla di Telefoni Android
+Result: {'intent': 'leggere', 'entities': ['Telefoni', 'Android']}
+---
+Utterance: dimmi l'intero contenuto del testo del paragrafo che tratta di Telefoni Android
+Result: {'intent': 'leggere', 'entities': ['Telefoni', 'Android']}
+---
+
+---
+Intent: Ripetere
+Expected result: {'intent': 'ripetere', 'entities': *Not relevant*}
+---
+Utterance: ripeti
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: puoi ripetere?
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho capito, voglio riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho sentito bene
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avevo il volume troppo basso, avrei bisogno di riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avrei bisogno di avere di nuovo la lista delle istruzioni e degli elementi disponibili
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riuscito a sentire l'ultima parte
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riucito a sentire parte di quello che è stato detto
+Result: {'intent': 'ripetere', 'entities': []}
+---
+
+
+---
+Intent: Aiutare
+Expected result: {'intent': 'aiutare', 'entities': *Not relevant*}
+---
+Utterance: aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so cosa fare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: sono disorientato
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so quali sono i comandi disponibili
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: a questo punto, non ho ben chiaro quali siano le istruzioni che posso dare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di un suggerimento per proseguire
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno della lista dei comandi disponibili
+Result: {'intent': 'aiutare', 'entities': []}
+---
+
+
+---
+Intent: Riassumere
+Expected result: {'intent': 'riassumere', 'entities': *Not relevant*}
+---
+Utterance: fammi un'overview della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto del contenuto
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai una sintesi del contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: presentami il contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+
+---
+Intent: Domandare
+Expected result: {'intent': 'domandare', 'entities': *Not relevant*}
+---
+Utterance: quali sono le tre informazioni più importanti di Telefoni Android?
+Result: {'intent': 'domandare', 'entities': []}
+---
+Utterance: cosa tratta la parte relativa a Telefoni Android?
+Result: {'intent': 'domandare', 'entities': []}
+---
+
+
+EXTRA
+
+
+---
+Intent: Navigazione - lettura link
+Expected result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: leggi i link
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link posso visitare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i link nella pagina?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali pagine posso navigare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali collegamenti sono disponibili?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i collegamenti alle altre pagine?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali collegamenti posso proseguire la navigazione?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+
+
+---
+Intent: Leggere - prossimo paragrafo
+Expected result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: avanti
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: continua a leggere
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: prosegui con la lettura
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: dimmi di più
+Result: {'intent': 'leggere', 'entities': []}
+---
+
+
+---
+Q&A
+---
+Utterance: quali sono le tre informazioni più importanti di Telefoni Android?
+Result:
+Le tre informazioni più importanti dei telefoni Android riportate dal testo sono:
+
+1. Modelli di Telefono Disponibili e Prezzi di Partenza:
+   - Galaxy S24 Ultra: a partire da 1.619 €
+   - Galaxy Z Flip5: a partire da 1.049 €
+   - Galaxy Z Fold5: a partire da 1.749 €
+   - Pixel 8 Pro: a partire da 1.099 €
+   - Pixel 8: a partire da 799 €
+   - Pixel 8a: a partire da 549 €
+
+2. Ecosistema Connesso:
+   - Android offre un ampio ecosistema di dispositivi connessi, facilitando la condivisione di foto, video e altri contenuti tramite funzioni come Quick Share.
+   - È possibile condividere lo schermo dello smartphone su uno schermo di casa.
+
+3. Sicurezza:
+   - Android fornisce importanti protezioni antiphishing e antispam per garantire la sicurezza degli utenti.
+---
+Utterance: cosa tratta la parte relativa a Telefoni Android?
+Result:
+La parte relativa a Telefoni Android nel testo menziona i nuovi modelli di telefoni Android disponibili sul mercato, insieme ai loro prezzi di partenza. I modelli elencati sono:
+
+- Galaxy S24 Ultra, con un prezzo di partenza di 1.619 €
+- Galaxy Z Flip5, con un prezzo di partenza di 1.049 €
+- Galaxy Z Fold5, con un prezzo di partenza di 1.749 €
+- Pixel 8 Pro, con un prezzo di partenza di 1.099 €
+- Pixel 8, con un prezzo di partenza di 799 €
+- Pixel 8a, con un prezzo di partenza di 549 €
+
+Il testo invita anche i lettori ad "Acquista ora" per ciascun modello e offre un'opzione per "Visualizza tutti gli smartphone" presenti nell'ecosistema Android.
+---
+
+
+---
+Synthesize
+---
+Utterance: 'fammi un'overview della pagina', 'fai un riassunto della pagina', 'fai un riassunto del contenuto', 'fai una sintesi del contenuto della pagina', 'presentami il contenuto della pagina'
+Result:
+La pagina di Android.com utilizza i cookie di Google per migliorare i propri servizi e analizzare il traffico. Essa offre una panoramica su vari aspetti dell'ecosistema Android, incoraggiando l'esplorazione dei dispositivi disponibili e all'acquisto di smartphone come Galaxy S24 Ultra, Galaxy Z Flip5, Galaxy Z Fold5, Pixel 8 Pro, Pixel 8 e Pixel 8a, con i rispettivi prezzi di partenza. Promuove la creazione di connessioni attraverso funzionalità come Quick Share per la condivisione facile di contenuti e la protezione contro phishing e spam. La pagina evidenzia anche le novità come gli adesivi Emoji Kitchen e incoraggia la personalizzazione con Android.
+---

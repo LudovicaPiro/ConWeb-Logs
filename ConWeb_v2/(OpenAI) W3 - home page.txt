@@ -1,0 +1,242 @@
+---
+Intent: Navigare
+Expected result: {'intent': 'navigare', 'entities': ['Read', 'more', 'about', 'W3C'] (at least one)}
+---
+Utterance: apri Read more about W3C
+Result: {'intent': 'navigare', 'entities': ['Read', 'more', 'about', 'W3C']}
+---
+Utterance: vai a Read more about W3C
+Result: {'intent': 'navigare', 'entities': ['Read', 'more', 'about', 'W3C']}
+---
+Utterance: portami a Read more about W3C
+Result: {'intent': 'navigare', 'entities': ['Read', 'more', 'about', 'W3C']}
+---
+Utterance: portami verso la pagina Read more about W3C
+Result: {'intent': 'navigare', 'entities': ['verso', 'W3C']}
+---
+Utterance: clicca su Read more about W3C
+Result: {'intent': 'navigare', 'entities': ['Read', 'more', 'about', 'W3C']}
+---
+Utterance: devo andare verso Read more about W3C
+Result: {'intent': 'navigare', 'entities': ['verso', 'W3C']}
+---
+Utterance: devo approfondire la pagina a cui punta il link Read more about W3C
+Result: {'intent': 'navigare', 'entities': ['Read', 'more', 'about', 'W3C']}
+---
+Utterance: ho bisogno di andare verso Read more about W3C
+Result: {'intent': 'navigare', 'entities': ['verso', 'W3C']}
+---
+Utterance: non è questa la pagina che mi interessa ma quella collegata al link Read more about W3C
+Result: {'intent': 'navigare', 'entities': ['link', 'W3C']}
+---
+
+
+---
+Intent: Leggere
+Expected result: {'intent': 'leggere', 'entities': ['Web', 'standards'] (at least one)}
+---
+Utterance: leggi Web standards
+Result: {'intent': 'leggere', 'entities': ['Web', 'standards']}
+---
+Utterance: leggimi Web standards
+Result: {'intent': 'leggere', 'entities': ['Web', 'standards']}
+---
+Utterance: vorrei che leggessi Web standards
+Result: {'intent': 'leggere', 'entities': ['Web', 'standards']}
+---
+Utterance: vorrei leggere il paragrafo di Web standards
+Result: {'intent': 'leggere', 'entities': ['Web', 'standards']}
+---
+Utterance: vorrei approfondire la lettura del contenuto del paragrafo che parla di Web standards
+Result: {'intent': 'leggere', 'entities': ['Web', 'standards']}
+---
+Utterance: dimmi della parte in cui si parla di Web standards
+Result: {'intent': 'leggere', 'entities': ['parte', 'Web', 'standards']}
+---
+Utterance: vorrei avere il contenuto completo della parte in cui si parla di Web standards
+Result: {'intent': 'leggere', 'entities': ['parte', 'Web', 'standards']}
+---
+Utterance: dimmi l'intero contenuto del testo del paragrafo che tratta di Web standards
+Result: {'intent': 'leggere', 'entities': ['Web', 'standards']}
+---
+
+---
+Intent: Ripetere
+Expected result: {'intent': 'ripetere', 'entities': *Not relevant*}
+---
+Utterance: ripeti
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: puoi ripetere?
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho capito, voglio riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho sentito bene
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avevo il volume troppo basso, avrei bisogno di riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avrei bisogno di avere di nuovo la lista delle istruzioni e degli elementi disponibili
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riuscito a sentire l'ultima parte
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riucito a sentire parte di quello che è stato detto
+Result: {'intent': 'ripetere', 'entities': []}
+---
+
+
+---
+Intent: Aiutare
+Expected result: {'intent': 'aiutare', 'entities': *Not relevant*}
+---
+Utterance: aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so cosa fare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: sono disorientato
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so quali sono i comandi disponibili
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: a questo punto, non ho ben chiaro quali siano le istruzioni che posso dare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di un suggerimento per proseguire
+Result: {'intent': 'aiutare', 'entities': ['suggerimento']}
+---
+Utterance: ho bisogno della lista dei comandi disponibili
+Result: {'intent': 'aiutare', 'entities': ['lista', 'comandi', 'disponibili']}
+---
+
+
+---
+Intent: Riassumere
+Expected result: {'intent': 'riassumere', 'entities': *Not relevant*}
+---
+Utterance: fammi un'overview della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto del contenuto
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai una sintesi del contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: presentami il contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+
+---
+Intent: Domandare
+Expected result: {'intent': 'domandare', 'entities': *Not relevant*}
+---
+Utterance: quali sono le tre informazioni più importanti di Web standards?
+Result: {'intent': 'domandare', 'entities': ['Web', 'standards']}
+---
+Utterance: cosa tratta la parte relativa a Web standards?
+Result: {'intent': 'domandare', 'entities': ['web', 'standards']}
+---
+
+
+EXTRA
+
+
+---
+Intent: Navigazione - lettura link
+Expected result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: leggi i link
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link posso visitare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i link nella pagina?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali pagine posso navigare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali collegamenti sono disponibili?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i collegamenti alle altre pagine?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali collegamenti posso proseguire la navigazione?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+
+
+---
+Intent: Leggere - prossimo paragrafo
+Expected result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: avanti
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: continua a leggere
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: prosegui con la lettura
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: dimmi di più
+Result: {'intent': 'leggere', 'entities': []}
+---
+
+
+---
+Q&A
+---
+Utterance: quali sono le tre informazioni più importanti di Web standards?
+Result:
+Sulla base del testo fornito, le tre informazioni più importanti su "Web standards" sono:
+
+1. Definizione e Importanza: I Web standards sono descritti come i mattoni fondamentali di un mondo digitalmente connesso e coerente. Sono essenziali per il funzionamento omogeneo di browser, blog, motori di ricerca e altri software che alimentano la nostra esperienza sul Web.
+
+2. Collaborazione: Il W3C è una comunità internazionale dove Membri, personale a tempo pieno e il pubblico lavorano insieme per sviluppare questi standard web.
+
+3. Implementazione e Utilizzo: Questi standard sono implementati in vari strumenti e tecnologie che utilizziamo quotidianamente sul Web, garantendo un'esperienza web coesa e interoperabile.
+---
+Utterance: cosa tratta la parte relativa a Web standards?
+Result:
+La parte relativa a Web standards descrive l'importanza degli standard web come fondamenta di un mondo digitale interconnesso in modo coerente. Questi standard vengono implementati nei browser, nei blog, nei motori di ricerca e in altri software che alimentano la nostra esperienza sul Web. La World Wide Web Consortium (W3C) è una comunità internazionale dove membri, personale a tempo pieno e il pubblico lavorano insieme per sviluppare tali standard web.
+---
+
+
+---
+Synthesize
+---
+Utterance: 'fammi un'overview della pagina', 'fai un riassunto della pagina', 'fai un riassunto del contenuto', 'fai una sintesi del contenuto della pagina', 'presentami il contenuto della pagina'
+Result:
+La pagina del sito web del World Wide Web Consortium (W3C) offre una panoramica approfondita delle loro iniziative e risorse. Il W3C è un'organizzazione che sviluppa standard e linee guida per costruire un web accessibile, internazionale, privato e sicuro. 
+
+La pagina include diverse sezioni:
+1. Informazioni sul W3C: Descrive la missione dell'organizzazione di lavorare con vari stakeholder per guidare lo sviluppo delle tecnologie web fondamentali e favorire lo scambio di idee con leader del settore e della ricerca.
+2. Standard Web: Spiega come gli standard web siano i fondamentali della nostra esperienza digitale e illustra il ruolo del W3C nella loro definizione, con la partecipazione di membri, staff e il pubblico.
+3. Coinvolgimento: Indica le diverse modalità con cui individui e organizzazioni possono partecipare alle attività del W3C per promuovere la standardizzazione del web.
+4. Ultime Notizie: Informa sulle elezioni del Comitato Consultivo del W3C, il blog del CEO Seth Dobbs sull'accessibilità web, e altre novità, come l'invito del W3C a implementare il formato di propagazione per il contesto distribuito e una nota sulla presentazione dei testi in script Adlam.
+
+Nel complesso, il sito evidenzia l'importanza dei collaboratori del W3C e offre risorse per chi vuole contribuire allo sviluppo e alla standardizzazione del web.
+---

@@ -1,0 +1,258 @@
+---
+Intent: Navigare
+Expected result: {'intent': 'navigare', 'entities': ['Notizie'] (at least one)}
+---
+Utterance: apri Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+Utterance: vai a Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+Utterance: portami a Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+Utterance: portami verso la pagina Notizie
+Result: {'intent': 'navigare', 'entities': ['notizie']}
+---
+Utterance: clicca su Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+Utterance: devo andare verso Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+Utterance: devo approfondire la pagina a cui punta il link Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+Utterance: ho bisogno di andare verso Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+Utterance: non è questa la pagina che mi interessa ma quella collegata al link Notizie
+Result: {'intent': 'navigare', 'entities': ['Notizie']}
+---
+
+
+---
+Intent: Leggere
+Expected result: {'intent': 'leggere', 'entities': ['Cronache', 'dall'Italia'] (at least one)}
+---
+Utterance: leggi Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['Cronache', "dall'Italia"]}
+---
+Utterance: leggimi Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['Cronache', "dall'Italia"]}
+---
+Utterance: vorrei che leggessi Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['cronache']}
+---
+Utterance: vorrei leggere il paragrafo di Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['cronache', 'italia']}
+---
+Utterance: vorrei approfondire la lettura del contenuto del paragrafo che parla di Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['Cronache']}
+---
+Utterance: dimmi della parte in cui si parla di Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['Cronache', "dall'Italia"]}
+---
+Utterance: vorrei avere il contenuto completo della parte in cui si parla di Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['Cronache', "dall'Italia"]}
+---
+Utterance: dimmi l'intero contenuto del testo del paragrafo che tratta di Cronache dall'Italia
+Result: {'intent': 'leggere', 'entities': ['cronache', 'italia']}
+---
+
+
+---
+Intent: Ripetere
+Expected result: {'intent': 'ripetere', 'entities': *Not relevant*}
+---
+Utterance: ripeti
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: puoi ripetere?
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho capito, voglio riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho sentito bene
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avevo il volume troppo basso, avrei bisogno di riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avrei bisogno di avere di nuovo la lista delle istruzioni e degli elementi disponibili
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riuscito a sentire l'ultima parte
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riucito a sentire parte di quello che è stato detto
+Result: {'intent': 'ripetere', 'entities': []}
+---
+
+
+---
+Intent: Aiutare
+Expected result: {'intent': 'aiutare', 'entities': *Not relevant*}
+---
+Utterance: aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so cosa fare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: sono disorientato
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so quali sono i comandi disponibili
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: a questo punto, non ho ben chiaro quali siano le istruzioni che posso dare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di un suggerimento per proseguire
+Result: {'intent': 'aiutare', 'entities': ['suggerimento']}
+---
+Utterance: ho bisogno della lista dei comandi disponibili
+Result: {'intent': 'aiutare', 'entities': ['lista', 'comandi', 'disponibili']}
+---
+
+
+---
+Intent: Riassumere
+Expected result: {'intent': 'riassumere', 'entities': *Not relevant*}
+---
+Utterance: fammi un'overview della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto del contenuto
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai una sintesi del contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: presentami il contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+
+
+---
+Intent: Domandare
+Expected result: {'intent': 'domandare', 'entities': *Not relevant*}
+---
+Utterance: quali sono le tre informazioni più importanti di Cronache dall'Italia?
+Result: {'intent': 'domandare', 'entities': []}
+---
+Utterance: cosa tratta la parte relativa a Cronache dall'Italia?
+Result: {'intent': 'domandare', 'entities': []}
+---
+
+
+EXTRA
+
+
+---
+Intent: Navigazione - lettura link
+Expected result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: leggi i link
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link posso visitare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i link nella pagina?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali pagine posso navigare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali collegamenti sono disponibili?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i collegamenti alle altre pagine?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali collegamenti posso proseguire la navigazione?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+
+
+---
+Intent: Leggere - prossimo paragrafo
+Expected result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: avanti
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: continua a leggere
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: prosegui con la lettura
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: dimmi di più
+Result: {'intent': 'leggere', 'entities': []}
+---
+
+
+---
+Q&A
+---
+Utterance: quali sono le tre informazioni più importanti di Cronache dall'Italia?
+Result:
+Le tre informazioni più importanti della sezione "Cronache dall'Italia" sono:
+
+1. Il giallo di Pierina Paganelli: Pierina Paganelli è stata uccisa in un garage, e dopo otto mesi c'è una svolta nel caso, con un'indagine in corso su un sospettato.
+2. L'arresto di Simone Borgese: Simone Borgese è stato arrestato per aver chiesto informazioni a una ragazza per poi abusare di lei. Aveva già una precedente condanna per stupro.
+3. Il lutto per Barbara Carron: Barbara Carron, conosciuta come "Lady B" e nota imprenditrice, è morta. Aveva raccontato la sua lotta contro il cancro sui social.
+---
+Utterance: cosa tratta la parte relativa a Cronache dall'Italia?
+Result:
+La sezione "Cronache dall'Italia" tratta vari fatti di cronaca che sono accaduti nel paese. Ecco un riepilogo degli argomenti coperti:
+
+1. Il Giallo: Pierina Paganelli è stata uccisa in garage, e dopo otto mesi c'è una svolta con un'indagine che potrebbe portare alla risoluzione del caso.
+   
+2. La Vicenda: Un uomo di nome Simone Borgese è stato arrestato per aver chiesto informazioni a una ragazza per poi abusare di lei. Era già stato condannato per stupro in passato.
+
+3. Il Lutto: Barbara Carron, conosciuta come "Lady B", è morta. Era un'imprenditrice che aveva raccontato sui social la sua lotta contro il cancro.
+
+4. Lieto Fine: Noemi Zanella, una bambina italiana rapita quasi tre anni fa, è stata ritrovata in Polonia.
+
+5. L'Aggressione: Una donna di 98 anni è stata azzannata dal suo cane e ricoverata in ospedale con il volto dilaniato.
+---
+
+
+---
+Synthesize
+---
+Utterance: 'fammi un'overview della pagina', 'fai un riassunto della pagina', 'fai un riassunto del contenuto', 'fai una sintesi del contenuto della pagina', 'presentami il contenuto della pagina'
+Result:
+La pagina web offre una panoramica di diverse notizie e argomenti variegati, tra cui politica, sport, attualità, spettacolo, economia, benessere, scienza, tecnologia, curiosità e gossip:
+
+1. Politica: Discussioni sui leader politici, interviste con Elly Schlein del Partito Democratico e aggiornamenti sulle elezioni europee del 2024.
+2. Sport: Risultati del Roland Garros 2024, la finale raggiunta da Sinner e Paolini, e i convocati per Euro 2024 da Spalletti.
+3. Attualità: Cronache di eventi significativi come la diminuzione dei tassi d'interesse da parte della BCE, storie tragiche e altre cronache italiane.
+4. Spettacolo e Costume: Notizie su vincitori di reality show come "L'Isola dei Famosi", interviste con celebrità come Piero Pelù e Lilli Gruber, e finalisti del Premio Strega.
+5. Economia: Informazioni su bonus e agevolazioni economiche, nuove regolamentazioni edilizie, e costi degli stabilimenti balneari per il 2024.
+6. Benessere e Salute: Nuovi vaccini approvati, emergenze sanitarie come l'influenza aviaria, e innovazioni mediche come un farmaco per far ricrescere i denti.
+7. Scienza: Scoperte e immagini dal cosmo tramite la missione Euclid dell'Esa, problemi di inquinamento da PFAS, e spiegazioni sulla formazione degli ingorghi stradali.
+8. Gossip: Aggiornamenti sulla vita delle celebrità come William e Kate Middleton, notizie su relazioni di personaggi famosi, e controversie sui social media.
+9. Tecnologia e Innovazione: Nuovi prodotti tecnologici come robot aspirapolvere e proiettori laser, oltre a software per rilevamento di fake news.
+10. Curiosità: Storie straordinarie e bizzarre, come matrimoni gay nello spazio e scoperte archeologiche da parte di bambini.
+11. Cibo e Culinary: Racconti sull'evoluzione di prodotti dolciari italiani tradizionali come il fruttone leccese e ricerca di assaggiatori per tiramisù.
+
+In sintesi, la pagina fornisce un vasto spettro di notizie e informazioni che spaziano dalla politica internazionale al lifestyle, dalle ultime novità sportive a curiosità e innovazioni tecnologiche.
+---

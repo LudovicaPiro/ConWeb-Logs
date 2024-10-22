@@ -1,0 +1,246 @@
+---
+Intent: Navigare
+Expected result: {'intent': 'navigare', 'entities': ['A', 'Stolen', 'Year'] (at least one)}
+---
+Utterance: apri A Stolen Year
+Result: {'intent': 'navigare', 'entities': ['year']}
+---
+Utterance: vai a A Stolen Year
+Result: {'intent': 'navigare', 'entities': ['year']}
+---
+Utterance: portami a A Stolen Year
+Result: {'intent': 'navigare', 'entities': ['year']}
+---
+Utterance: portami verso la pagina A Stolen Year
+Result: {'intent': 'navigare', 'entities': ['pagina', 'year']}
+---
+Utterance: clicca su A Stolen Year
+Result: {'intent': 'navigare', 'entities': ['year']}
+---
+Utterance: devo andare verso A Stolen Year
+Result: {'intent': 'navigare', 'entities': ['A', 'Stolen', 'Year']}
+---
+Utterance: devo approfondire la pagina a cui punta il link A Stolen Year
+Result: {'intent': 'navigare', 'entities': ['pagina', 'link']}
+---
+Utterance: ho bisogno di andare verso A Stolen Year
+Result: {'intent': 'navigare', 'entities': ['year']}
+---
+Utterance: non è questa la pagina che mi interessa ma quella collegata al link A Stolen Year
+Result: {'intent': 'navigare', 'entities': ['link', 'year']}
+---
+
+
+---
+Intent: Leggere
+Expected result: {'intent': 'leggere', 'entities': ['Finance'] (at least one)}
+---
+Utterance: leggi Finance
+Result: {'intent': 'leggere', 'entities': ['finance']}
+---
+Utterance: leggimi Finance
+Result: {'intent': 'leggere', 'entities': ['Finance']}
+---
+Utterance: vorrei che leggessi Finance
+Result: {'intent': 'leggere', 'entities': ['Finance']}
+---
+Utterance: vorrei leggere il paragrafo di Finance
+Result: {'intent': 'leggere', 'entities': ['Finance']}
+---
+Utterance: vorrei approfondire la lettura del contenuto del paragrafo che parla di Finance
+Result: {'intent': 'leggere', 'entities': ['Finance']}
+---
+Utterance: dimmi della parte in cui si parla di Finance
+Result: {'intent': 'leggere', 'entities': ['Finance']}
+---
+Utterance: vorrei avere il contenuto completo della parte in cui si parla di Finance
+Result: {'intent': 'leggere', 'entities': ['Finance']}
+---
+Utterance: dimmi l'intero contenuto del testo del paragrafo che tratta di Finance
+Result: {'intent': 'leggere', 'entities': ['Finance']}
+---
+
+---
+Intent: Ripetere
+Expected result: {'intent': 'ripetere', 'entities': *Not relevant*}
+---
+Utterance: ripeti
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: puoi ripetere?
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho capito, voglio riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho sentito bene
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avevo il volume troppo basso, avrei bisogno di riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avrei bisogno di avere di nuovo la lista delle istruzioni e degli elementi disponibili
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riuscito a sentire l'ultima parte
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riucito a sentire parte di quello che è stato detto
+Result: {'intent': 'ripetere', 'entities': []}
+---
+
+
+---
+Intent: Aiutare
+Expected result: {'intent': 'aiutare', 'entities': *Not relevant*}
+---
+Utterance: aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so cosa fare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: sono disorientato
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so quali sono i comandi disponibili
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: a questo punto, non ho ben chiaro quali siano le istruzioni che posso dare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di un suggerimento per proseguire
+Result: {'intent': 'aiutare', 'entities': ['suggerimento']}
+---
+Utterance: ho bisogno della lista dei comandi disponibili
+Result: {'intent': 'aiutare', 'entities': ['lista', 'comandi', 'disponibili']}
+---
+
+
+---
+Intent: Riassumere
+Expected result: {'intent': 'riassumere', 'entities': *Not relevant*}
+---
+Utterance: fammi un'overview della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto del contenuto
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai una sintesi del contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: presentami il contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+
+---
+Intent: Domandare
+Expected result: {'intent': 'domandare', 'entities': *Not relevant*}
+---
+Utterance: quali sono le tre informazioni più importanti di Finance?
+Result: {'intent': 'domandare', 'entities': ['Finance']}
+---
+Utterance: cosa tratta la parte relativa a Finance?
+Result: {'intent': 'domandare', 'entities': ['Finance']}
+---
+
+
+EXTRA
+
+
+---
+Intent: Navigazione - lettura link
+Expected result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: leggi i link
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link posso visitare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i link nella pagina?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali pagine posso navigare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali collegamenti sono disponibili?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i collegamenti alle altre pagine?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali collegamenti posso proseguire la navigazione?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+
+
+---
+Intent: Leggere - prossimo paragrafo
+Expected result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: avanti
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: continua a leggere
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: prosegui con la lettura
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: dimmi di più
+Result: {'intent': 'leggere', 'entities': []}
+---
+
+
+---
+Q&A
+---
+Utterance: quali sono le tre informazioni più importanti di Finance?
+Result:
+Le tre informazioni più importanti della sezione Finance sono:
+
+1. The Investing Boom That’s Squeezing Some People Dry: Questo articolo di Jason Zweig discute l'aumento degli investimenti in immobili e altri beni privati, sottolineando l'importanza di conoscere le modalità di uscita prima di entrare in tali investimenti.
+   
+2. AI May Not Be What Sells Apple’s Next iPhone: La discussione si concentra sulle aspettative che Apple metta l'intelligenza artificiale al centro del prossimo iPhone, ma suggerisce che la domanda pent-up dopo tre anni deboli potrebbe essere un fattore più significativo nelle vendite.
+
+3. Netflix Sued for Defamation Over ‘Baby Reindeer’ Character: Netflix è stata citata in giudizio per diffamazione da una donna che afferma di essere stata falsamente rappresentata come stalker nella serie di successo, con richieste di danni monetari che potrebbero superare i 170 milioni di dollari.
+---
+Utterance: cosa tratta la parte relativa a Finance?
+Result:
+La sezione "Finance" del testo include vari articoli e colonne che trattano diversi argomenti finanziari. Ecco un riepilogo dei contenuti principali:
+
+1. The Investing Boom That’s Squeezing Some People Dry di Jason Zweig: Questo articolo parla delle difficoltà legate agli investimenti in pacchetti di beni immobili e altre attività private che sono facili da acquistare ma difficili da vendere.
+
+2. AI May Not Be What Sells Apple’s Next iPhone : Questo articolo discute come la domanda accumulata dopo tre anni deboli potrebbe essere un fattore maggiore per aiutare le vendite del prossimo iPhone rispetto all'intelligenza artificiale.
+
+3. Netflix Sued for Defamation Over ‘Baby Reindeer’ Character : Un articolo su una donna che sostiene di essere stata falsamente rappresentata come stalker in una serie di successo e che sta cercando danni monetari.
+
+4. Google’s New CFO to Receive $9.9 Million Signing Bonus : Una notizia sull'assunzione del nuovo CFO di Google, Anat Ashkenazi, e il suo pacchetto di compensazione.
+
+5. CityMD Agrees to Pay $12 Million to Justice Department Over Alleged Covid-19 Payments Violation : Una notizia sull'accordo di CityMD per pagare una multa al Dipartimento di Giustizia per presunte violazioni relative al pagamento dei test Covid-19.
+
+Riassumendo, questa sezione copre argomenti che vanno dagli investimenti e le difficoltà che possono derivare, all'uso dell'intelligenza artificiale nei prodotti Apple, a controversie legali e notizie su alti dirigenti aziendali.
+---
+
+
+---
+Synthesize
+---
+Utterance: 'fammi un'overview della pagina', 'fai un riassunto della pagina', 'fai un riassunto del contenuto', 'fai una sintesi del contenuto della pagina', 'presentami il contenuto della pagina'
+Result:
+La pagina offre una panoramica completa delle notizie più recenti, incluse le principali storie di attualità, politica, economia e business. Contiene articoli dettagliati su vari argomenti come la resistenza di Hamas alle pressioni per un cessate il fuoco, il continuo sviluppo economico nonostante le previsioni di recessione, e i nuovi dati sugli stipendi e assunzioni. Ci sono anche sezioni dedicati ai recenti sviluppi su personaggi di alto profilo, come Hunter Biden e il dirigente di Nvidia Jensen Huang. Inoltre, vengono trattati argomenti di interesse generale come tendenze nella moda, design di interni, e nuove tecnologie. Oltre alle notizie, la pagina presenta editoriali, opinioni, podcast informativi e contenuti sponsorizzati dal WSJ. Infine, è presente una promozione per l'abbonamento al Wall Street Journal.
+---

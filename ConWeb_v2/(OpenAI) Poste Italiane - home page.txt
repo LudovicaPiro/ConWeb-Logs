@@ -1,0 +1,248 @@
+---
+Intent: Navigare
+Expected result: {'intent': 'navigare', 'entities': ['Spedisci', 'pacco'] (at least one)}
+---
+Utterance: apri Spedisci pacco
+Result: {'intent': 'navigare', 'entities': ['Spedisci', 'pacco']}
+---
+Utterance: vai a Spedisci pacco
+Result: {'intent': 'navigare', 'entities': ['Spedisci', 'pacco']}
+---
+Utterance: portami a Spedisci pacco
+Result: {'intent': 'navigare', 'entities': ['Spedisci', 'pacco']}
+---
+Utterance: portami verso la pagina Spedisci pacco
+Result: {'intent': 'navigare', 'entities': ['Spedisci', 'pacco']}
+---
+Utterance: clicca su Spedisci pacco
+Result: {'intent': 'navigare', 'entities': ['Spedisci', 'pacco']}
+---
+Utterance: devo andare verso Spedisci pacco
+Result: {'intent': 'navigare', 'entities': ['Spedisci', 'pacco']}
+---
+Utterance: devo approfondire la pagina a cui punta il link Spedisci pacco
+Result: {'intent': 'navigare', 'entities': ['Spedisci', 'pacco']}
+---
+Utterance: ho bisogno di andare verso Spedisci pacco
+Result: {'intent': 'navigare', 'entities': ['Spedisci', 'pacco']}
+---
+Utterance: non è questa la pagina che mi interessa ma quella collegata al link Spedisci pacco
+Result: {'intent': 'navigare', 'entities': ['Spedisci', 'pacco']}
+---
+
+
+---
+Intent: Leggere
+Expected result: {'intent': 'leggere', 'entities': ['News'] (at least one)}
+---
+Utterance: leggi News
+Result: {'intent': 'leggere', 'entities': ['News']}
+---
+Utterance: leggimi News
+Result: {'intent': 'leggere', 'entities': ['news']}
+---
+Utterance: vorrei che leggessi News
+Result: {'intent': 'leggere', 'entities': ['News'}
+---
+Utterance: vorrei leggere il paragrafo di News
+Result: {'intent': 'leggere', 'entities': ['News']}
+---
+Utterance: vorrei approfondire la lettura del contenuto del paragrafo che parla di News
+Result: {'intent': 'leggere', 'entities': ['News']}
+---
+Utterance: dimmi della parte in cui si parla di News
+Result: {'intent': 'leggere', 'entities': ['News']}
+---
+Utterance: vorrei avere il contenuto completo della parte in cui si parla di News
+Result: {'intent': 'leggere', 'entities': ['News']}
+---
+Utterance: dimmi l'intero contenuto del testo del paragrafo che tratta di News
+Result: {'intent': 'leggere', 'entities': ['News']}
+---
+
+---
+Intent: Ripetere
+Expected result: {'intent': 'ripetere', 'entities': *Not relevant*}
+---
+Utterance: ripeti
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: puoi ripetere?
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho capito, voglio riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non ho sentito bene
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avevo il volume troppo basso, avrei bisogno di riascoltare
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: avrei bisogno di avere di nuovo la lista delle istruzioni e degli elementi disponibili
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riuscito a sentire l'ultima parte
+Result: {'intent': 'ripetere', 'entities': []}
+---
+Utterance: non sono riucito a sentire parte di quello che è stato detto
+Result: {'intent': 'ripetere', 'entities': []}
+---
+
+
+---
+Intent: Aiutare
+Expected result: {'intent': 'aiutare', 'entities': *Not relevant*}
+---
+Utterance: aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di aiuto
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so cosa fare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: sono disorientato
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: non so quali sono i comandi disponibili
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: a questo punto, non ho ben chiaro quali siano le istruzioni che posso dare
+Result: {'intent': 'aiutare', 'entities': []}
+---
+Utterance: ho bisogno di un suggerimento per proseguire
+Result: {'intent': 'aiutare', 'entities': ['suggerimento']}
+---
+Utterance: ho bisogno della lista dei comandi disponibili
+Result: {'intent': 'aiutare', 'entities': ['lista', 'comandi', 'disponibili']}
+---
+
+
+---
+Intent: Riassumere
+Expected result: {'intent': 'riassumere', 'entities': *Not relevant*}
+---
+Utterance: fammi un'overview della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai un riassunto del contenuto
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: fai una sintesi del contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+Utterance: presentami il contenuto della pagina
+Result: {'intent': 'riassumere', 'entities': []}
+---
+
+---
+Intent: Domandare
+Expected result: {'intent': 'domandare', 'entities': *Not relevant*}
+---
+Utterance: quali sono le tre informazioni più importanti di News?
+Result: {'intent': 'domandare', 'entities': ['News']}
+---
+Utterance: cosa tratta la parte relativa a News?
+Result: {'intent': 'domandare', 'entities': []}
+---
+
+
+EXTRA
+
+
+---
+Intent: Navigazione - lettura link
+Expected result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: leggi i link
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link ci sono?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: che link posso visitare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i link nella pagina?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali pagine posso navigare?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali collegamenti sono disponibili?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: quali sono i collegamenti alle altre pagine?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+Utterance: verso quali collegamenti posso proseguire la navigazione?
+Result: {'intent': 'leggere', 'entities': ['link']}
+---
+
+
+---
+Intent: Leggere - prossimo paragrafo
+Expected result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: avanti
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: continua a leggere
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: prosegui con la lettura
+Result: {'intent': 'leggere', 'entities': []}
+---
+Utterance: dimmi di più
+Result: {'intent': 'leggere', 'entities': []}
+---
+
+
+---
+Q&A
+---
+Utterance: quali sono le tre informazioni più importanti di News?
+Result:
+Le tre informazioni più importanti presenti nella sezione News della pagina web sono:
+
+1. Esiti dell’Assemblea degli Azionisti 2024 (31 maggio 2024):
+   - Si è svolta a Roma l’Assemblea ordinaria e straordinaria degli Azionisti di Poste Italiane sotto la presidenza di Silvia Maria Rovere.
+
+2. Servizio di passaporti disponibile in tutti gli uffici postali (17 maggio 2024):
+   - A partire da luglio, il servizio di richiesta e rinnovo passaporti sarà disponibile in tutti gli uffici postali d’Italia.
+
+3. Risultati finanziari del primo trimestre 2024 (15 maggio 2024):
+   - Il Consiglio di Amministrazione di Poste Italiane ha approvato i risultati finanziari per il primo trimestre del 2024, presieduto da Silvia Maria Rovere.
+---
+Utterance: cosa tratta la parte relativa a News?
+Result:
+La parte relativa a "News" sul sito di Poste Italiane riguarda aggiornamenti e comunicazioni ufficiali dell'azienda. In dettaglio:
+
+1. 31 MAG 24: Riporta gli esiti dell’Assemblea degli Azionisti del 2024, che si è tenuta a Roma sotto la presidenza di Silvia Maria Rovere.
+2. 17 MAG 24: Annuncia che a partire da luglio, il servizio di richiesta e rinnovo passaporti sarà disponibile in tutti gli uffici postali d’Italia.
+3. 15 MAG 24: Fornisce informazioni sui risultati finanziari del primo trimestre del 2024, approvati dal Consiglio di Amministrazione di Poste Italiane S.p.A.
+4. 7 FEB 24 (TG POSTE): Evidenzia il ruolo di Poste Italiane come azienda leader in Italia nella sostenibilità, con particolare attenzione al benessere, lavoro e vita privata delle persone.
+
+Questi aggiornamenti includono notizie rilevanti riguardanti le attività, i servizi e le prestazioni finanziarie dell'azienda.
+---
+
+
+---
+Synthesize
+---
+Utterance: 'fammi un'overview della pagina', 'fai un riassunto della pagina', 'fai un riassunto del contenuto', 'fai una sintesi del contenuto della pagina', 'presentami il contenuto della pagina'
+Result:
+La pagina di Poste Italiane illustra diverse funzionalità e informazioni utili per gli utenti. È presente un avviso iniziale riguardante l'uso dei cookie, con la possibilità di accettarli per una navigazione personalizzata o rifiutarli per utilizzare solo i cookie tecnici. La pagina offre la navigazione tra varie sezioni destinate a servizi per privati e business, come corrispondenza e spedizioni, conti e carte, risparmio e investimenti, assicurazioni, energia e telefonia, e servizi al cittadino.
+
+In evidenza, vi sono promozioni come il Conto BancoPosta e diverse offerte relative ai pagamenti online, spedizioni, gas e luce, check-up assicurativo, fibra ottica e PEC Postecertifica. Ci sono anche varie notizie aggiornate riguardanti l'azienda e le sue attività recenti, come gli esiti dell'Assemblea degli Azionisti, l'introduzione del servizio di passaporti in tutti gli uffici postali, e i risultati finanziari del primo trimestre del 2024.
+
+Inoltre, la pagina offre opzioni per contattare l'assistenza, accedere all'area personale, gestire preferenze, e descrive i servizi online disponibili. Ala fine, viene inclusa anche una sezione dedicata alle altre realtà collegate a Poste Italiane, come PosteMobile e Poste Air Cargo, e l'informativa obbligatoria sulla privacy e accessibilità del sito.
+---
