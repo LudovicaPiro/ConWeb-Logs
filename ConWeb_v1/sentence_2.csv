@@ -1,0 +1,118 @@
+id,userId,time,sentence,pred_intent,pred_entities,true_intent,true_entities,rasa_error,check_fp,to_fix
+1,2870159529,"2023-04-26 07:12:16",aiuto,aiutare,empty,aiutare,empty,0,0,0
+2,2870159529,"2023-04-26 07:12:55","vai all'inizio",navigare,inizio,navigare,"all',inizio",1,0,0
+3,2870159529,"2023-04-26 07:14:09","leggi contenuto di pagina",leggere,pagina,leggere,"contenuto,pagina",1,0,0
+4,2870159529,"2023-04-26 07:15:10","leggi in evidenza",leggere,evidenza,leggere,evidenza,0,0,0
+5,2870159529,"2023-04-26 07:15:47","leggi scioperi e assemblee",leggere,"scioperi,assemblee",leggere,"e,scioperi,assemblee",1,0,0
+6,2870159529,"2023-04-26 07:16:56",aiuto,aiutare,empty,aiutare,empty,0,0,0
+7,2870159529,"2023-04-26 07:17:08","vai all'inizio",navigare,inizio,navigare,"all',inizio",1,0,0
+8,2870159529,"2023-04-26 07:18:14","leggi contenuto di",leggere,empty,leggere,contenuto,1,0,0
+9,2870159529,"2023-04-26 07:18:23","leggi servizi on-line",leggere,"servizi,on,-line",leggere,servizi,1,0,0
+10,2870159529,"2023-04-26 07:19:51",vuoto,ripetere,empty,not_found,not_found,1,0,1
+11,2870159529,"2023-04-26 07:19:57",aiuto,aiutare,empty,aiutare,empty,0,0,0
+12,2870159529,"2023-04-26 07:20:12",ripeti,ripetere,empty,ripetere,empty,0,0,0
+13,2870159529,"2023-04-26 07:20:18",ripeti,ripetere,empty,ripetere,empty,0,0,0
+14,2870159529,"2023-04-26 07:20:27",ripeti,ripetere,empty,ripetere,empty,0,0,0
+15,2870159529,"2023-04-26 07:20:45",ripeti,ripetere,empty,ripetere,empty,0,0,0
+16,2870159529,"2023-04-26 07:21:03",ripeti,ripetere,empty,ripetere,empty,0,0,0
+17,2870159529,"2023-04-26 07:21:39","leggi scuole dell'infanzia centri estivi",leggere,"scuole,infanzia,centri,estivi",leggere,"scuole,estivi,centri",1,0,0
+18,2870159529,"2023-04-26 07:22:41","leggi centri estivi estivi scuole primarie",leggere,"centri,estivi,estivi,scuole,primarie",leggere,"centri,estivi,estivi,scuole,primarie",0,0,0
+19,2870159529,"2023-04-26 07:22:56","leggi primo paragrafo",leggere,"primo,paragrafo",leggere,paragrafo,1,0,0
+20,2870159529,"2023-04-26 07:24:15","vai all'inizio",navigare,inizio,navigare,"all',inizio",1,0,0
+21,2870159529,"2023-04-26 07:24:56","viaggi più visitati",leggere,"viaggi,visitati",leggere,visitati,1,0,0
+22,2870159529,"2023-04-26 07:25:09","leggi area b",leggere,area,leggere,"area,b",1,0,0
+23,2870159529,"2023-04-26 07:26:01",guanti,leggere,guanti,not_found,not_found,1,0,1
+24,2870159529,"2023-04-26 07:26:20","leggi area b",leggere,area,leggere,"leggi,area,b",1,0,0
+25,2870159529,"2023-04-26 07:26:57","leggi area b",leggere,area,leggere,"leggi,area,b",1,0,0
+26,2870159529,"2023-04-26 07:29:08","500 internal server error
+
+server got itself in trouble",leggere,"500,internal,server,server,got,trouble",aiutare,"keyword,server",1,1,1
+27,2870159529,"2023-04-26 07:29:11","vai all'inizio",navigare,inizio,navigare,"all',inizio",1,0,0
+28,2870159529,"2023-04-26 07:29:43","vai a notizie",navigare,notizie,leggere,notizie,1,0,0
+29,2870159529,"2023-04-26 07:29:56","leggi notizie",leggere,notizie,leggere,notizie,0,0,0
+30,2870159529,"2023-04-26 07:30:59","leggi sviluppo economico",leggere,"sviluppo,economico",leggere,"sviluppo,economico",0,0,0
+31,2870159529,"2023-04-26 07:31:16","leggi pagina",leggere,pagina,leggere,pagina,0,0,0
+32,2870159529,"2023-04-26 07:32:06","leggi sviluppo economico",leggere,"sviluppo,economico",leggere,"sviluppo,economico",0,0,0
+33,2870159529,"2023-04-26 07:32:40",indietro,navigare,indietro,navigare,indietro,0,0,0
+34,3063325688,"2023-04-26 08:30:12","leggi contenuto di pagina",leggere,pagina,leggere,"contenuto,pagina",1,0,0
+35,3063325688,"2023-04-26 08:34:33","500 internal server error
+
+server got itself in trouble",leggere,"500,internal,server,server,got,trouble",aiutare,"keyword,server",1,1,1
+36,3063325688,"2023-04-26 08:34:36","questo forse è il problema",leggere,empty,leggere,è,1,0,0
+37,3063325688,"2023-04-26 08:35:27","torna all'homepage",navigare,homepage,leggere,torna,1,0,0
+38,3063325688,"2023-04-26 08:36:04","leggi la notizia",leggere,notizia,leggere,notizia,1,1,1
+39,3063325688,"2023-04-26 08:36:35","parlami di in evidenza",leggere,evidenza,leggere,evidenza,0,0,0
+40,3063325688,"2023-04-26 08:37:54","torna all'inizio",navigare,inizio,leggere,torna,1,0,0
+41,3063325688,"2023-04-26 08:39:37","esplora menù",leggere,menù,leggere,menù,0,0,0
+42,3063325688,"2023-04-26 08:39:59","dimmi di cultura",leggere,cultura,leggere,cultura,0,0,0
+43,3063325688,"2023-04-26 08:41:03","dimmi di heartstopper",leggere,heartstopper,leggere,heartstopper,0,0,0
+44,3063325688,"2023-04-26 08:41:17","portami alla pagina dell'argomento",navigare,"pagina,argomento",leggere,pagina,1,0,0
+45,3063325688,"2023-04-26 08:41:52","500 internal server error
+
+server got itself in trouble",leggere,"500,internal,server,server,got,trouble",aiutare,"keyword,server",1,1,1
+46,3063325688,"2023-04-26 08:41:55","leggi l'articolo",leggere,articolo,leggere,articolo,1,1,1
+47,3063325688,"2023-04-26 08:42:29","leggi heartstopper",leggere,heartstopper,leggere,heartstopper,0,0,0
+48,3063325688,"2023-04-26 08:42:51","torna indietro",navigare,indietro,navigare,indietro,0,0,0
+49,3063325688,"2023-04-26 08:43:07","torna indietro",navigare,indietro,navigare,indietro,0,0,0
+50,3063325688,"2023-04-26 08:43:29","torna indietro",navigare,indietro,navigare,indietro,0,0,0
+51,3063325688,"2023-04-26 08:44:08","dimmi di introduzione alla criminologia",leggere,"introduzione,criminologia",ripetere,empty,1,0,0
+52,3063325688,"2023-04-26 08:45:13","parlami di isabella merzagora",leggere,merzagora,leggere,"isabella,merzagora",1,0,0
+53,3063325688,"2023-04-26 08:45:28","portami alla pagina dell'argomento",navigare,"pagina,argomento",leggere,pagina,1,0,0
+54,3063325688,"2023-04-26 08:46:28","leggi l'articolo",leggere,articolo,leggere,articolo,1,1,1
+55,3063325688,"2023-04-26 08:47:08","leggi di isabella merzagora",leggere,merzagora,leggere,"isabella,merzagora",1,0,0
+56,3063325688,"2023-04-26 08:48:20","torna all'inizio",navigare,inizio,navigare,"all',inizio",1,0,0
+57,3063325688,"2023-04-26 08:49:28","dimmi di menù",leggere,menù,leggere,menù,0,0,0
+58,3063325688,"2023-04-26 08:49:47","dimmi di opinioni",leggere,empty,leggere,opinioni,1,0,0
+59,3063325688,"2023-04-26 08:50:41","parlami di non rendiamoci ridicoli e smettiamo di insultare chi lavora",leggere,chi,leggere,"ridicoli,rendiamoci,lavora,insultare,smettiamo,e",1,0,0
+60,3063325688,"2023-04-26 08:50:57","portami alla pagina nell'argomento",navigare,"pagina,argomento",leggere,pagina,1,0,0
+61,3063325688,"2023-04-26 08:52:22","parlami di non rendiamoci ridicoli smettiamo di insultare chi lavora",leggere,chi,leggere,"ridicoli,rendiamoci,lavora,insultare,smettiamo",1,0,0
+62,3063325688,"2023-04-26 08:52:59","perché ti parlo per essere navigare avanti vai avanti",leggere,essere,navigare,"navigare,parlo",1,0,0
+63,235385481,"2023-04-28 13:09:04","500 internal server error
+
+server got itself in trouble",leggere,"500,internal,server,server,got,trouble",aiutare,"keyword,server",1,1,1
+64,235385481,"2023-04-28 13:09:23","500 internal server error
+
+server got itself in trouble",leggere,"500,internal,server,server,got,trouble",aiutare,"keyword,server",1,1,1
+65,235385481,"2023-04-28 13:09:58","leggimi la maggioranza riparte la camera col senza pagare in aula",leggere,"maggioranza,aula",leggere,"camera,riparte,maggioranza,aula",1,0,0
+66,235385481,"2023-04-28 13:10:13",anteprima,leggere,anteprima,leggere,anteprima,0,0,0
+67,235385481,"2023-04-28 13:10:24","500 internal server error
+
+server got itself in trouble",leggere,"500,internal,server,server,got,trouble",aiutare,"keyword,server",1,1,1
+68,235385481,"2023-04-28 13:11:09",anteprima,leggere,anteprima,leggere,anteprima,0,0,0
+69,235385481,"2023-04-28 13:12:17","leggimi la vita dell'orsa jj4 ha preso un chilo",leggere,"vita,orsa",leggere,jj4,1,0,0
+70,235385481,"2023-04-28 13:12:26","portami alla pagina",navigare,pagina,leggere,pagina,1,0,0
+71,235385481,"2023-04-28 13:14:41","infatti io voglio giro d'italia",leggere,"infatti,italia",not_found,not_found,1,0,1
+72,235385481,"2023-04-28 13:14:55","leggimi addio royal santina italia",leggere,"royal,santina,italia",leggere,royal,1,1,1
+73,235385481,"2023-04-28 13:15:28","leggimi la siepe a forma di lupa tramite la lazio",leggere,"forma,lazio",aiutare,empty,1,0,0
+74,235385481,"2023-04-28 13:16:23","borsa del vino diventata polemica",leggere,vino,not_found,not_found,1,0,1
+75,235385481,"2023-04-28 13:16:50","parlami visiona",leggere,empty,navigare,visiona,1,1,1
+76,235385481,"2023-04-28 13:17:38","dimmi il primo parlare un po' della vita dell'orsa gg4",leggere,"primo,vita,orsa,gg4",leggere,"orsa,gg4",1,1,1
+77,235385481,"2023-04-28 13:20:13","leggi abbattimento orsa jj4",leggere,"abbattimento,orsa,jj4",leggere,"jj4,orsa",1,0,0
+78,235385481,"2023-04-28 13:20:45",sicily,leggere,sicily,navigare,sicily,1,1,1
+79,235385481,"2023-04-28 13:20:59","sicily passo governatore più tardi",leggere,"governatore,tardi",ripetere,empty,1,0,0
+80,235385481,"2023-04-28 13:21:15","dimmi nuovo passo del governatore fugatti dopo pensarmi trento",leggere,"passo,governatore,fugatti,dopo,trento",navigare,"governatore,fugatti",1,1,1
+81,235385481,"2023-04-28 13:21:44","torna all'inizio",navigare,inizio,navigare,"all',inizio",1,0,0
+82,235385481,"2023-04-28 13:23:49","poi ho tre gambe",ripetere,empty,leggere,gambe,1,0,0
+83,235385481,"2023-04-28 13:24:09","vai alla pagina jacobs beauty le gambe",navigare,"pagina,jacobs,beauty,le",leggere,"gambe,pagina,jacobs",1,0,0
+84,235385481,"2023-04-28 13:25:48","500 internal server error
+
+server got itself in trouble",leggere,"500,internal,server,server,got,trouble",aiutare,"keyword,server",1,1,1
+85,235385481,"2023-04-28 13:26:17","maggiori informazioni su jacob le gambe",leggere,"informazioni,jacob",leggere,"informazioni,gambe",1,0,0
+86,235385481,"2023-04-28 13:27:44",pietro,navigare,empty,not_found,not_found,1,0,1
+87,235385481,"2023-04-28 13:27:53",mirko,leggere,mirko,not_found,not_found,1,0,1
+88,235385481,"2023-04-28 13:28:23",pietro,navigare,empty,not_found,not_found,1,0,1
+89,235385481,"2023-04-28 13:28:42","torna a pagina",navigare,pagina,navigare,pagina,0,0,0
+90,235385481,"2023-04-28 13:29:11","torna a precedente",navigare,indietro,navigare,indietro,0,0,0
+91,235385481,"2023-04-28 13:32:15","500 internal server error
+
+server got itself in trouble",leggere,"500,internal,server,server,got,trouble",leggere,500,1,0,0
+92,235385481,"2023-04-28 13:32:28","leggimi il menù",leggere,menù,leggere,menù,0,0,0
+93,235385481,"2023-04-28 13:33:01","invidia opinioni",leggere,empty,leggere,opinioni,1,0,0
+94,235385481,"2023-04-28 13:35:04","leggi i miei fermiamo il partito del lupo o ci saranno altri morti",leggere,"partito,saranno,morti",leggere,"i,partito,lupo,fermiamo,o,morti",1,0,0
+95,235385481,"2023-04-28 13:36:56","dimmi che fine ha fatto la magia di peter pan",leggere,"fine,peter,pan",leggere,"magia,peter",1,0,0
+96,235385481,"2023-04-28 13:38:07","leggimi che fine ha fatto la magia di peter pan",leggere,"fine,peter,pan",leggere,"magia,peter",1,0,0
+97,235385481,"2023-04-28 13:38:59","vai a che fine ha fatto la magia di peter pan",leggere,"fine,peter,pan",leggere,"magia,peter",1,0,0
+98,235385481,"2023-04-28 13:39:12","portami all' argomento",navigare,argomento,leggere,argomento,1,0,0
+99,235385481,"2023-04-28 13:41:39","leggimi la trama del film",leggere,"trama,film",leggere,"trama,film",0,0,0
+100,235385481,"2023-04-28 13:41:53","vai a paragrafo",navigare,paragrafo,navigare,paragrafo,0,0,0
+101,235385481,"2023-04-28 13:43:45","leggimi live action",leggere,"live,action",leggere,"live,action",0,0,0

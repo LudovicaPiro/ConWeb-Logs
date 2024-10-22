@@ -1,0 +1,36 @@
+id,userId,time,sentence,pred_intent,pred_entities,true_intent,true_entities,rasa_error,check_fp,to_fix
+1,2870159529,"2023-04-26 07:12:16",aiuto,aiutare,empty,aiutare,empty,0,0,0
+2,2870159529,"2023-04-26 07:12:55","vai all'inizio",navigare,inizio,navigare,"all',inizio",1,0,0
+3,2870159529,"2023-04-26 07:14:09","leggi contenuto di pagina",leggere,pagina,leggere,"contenuto,pagina",1,0,0
+4,2870159529,"2023-04-26 07:15:10","leggi in evidenza",leggere,evidenza,leggere,evidenza,0,0,0
+5,2870159529,"2023-04-26 07:15:47","leggi scioperi e assemblee",leggere,"scioperi,assemblee",leggere,"e,scioperi,assemblee",1,0,0
+6,2870159529,"2023-04-26 07:16:56",aiuto,aiutare,empty,aiutare,empty,0,0,0
+7,2870159529,"2023-04-26 07:17:08","vai all'inizio",navigare,inizio,navigare,"all',inizio",1,0,0
+8,2870159529,"2023-04-26 07:18:14","leggi contenuto di",leggere,empty,leggere,contenuto,1,0,0
+9,2870159529,"2023-04-26 07:18:23","leggi servizi on-line",leggere,"servizi,on,-line",leggere,servizi,1,0,0
+10,2870159529,"2023-04-26 07:19:51",vuoto,ripetere,empty,not_found,not_found,1,0,1
+11,2870159529,"2023-04-26 07:19:57",aiuto,aiutare,empty,aiutare,empty,0,0,0
+12,2870159529,"2023-04-26 07:20:12",ripeti,ripetere,empty,ripetere,empty,0,0,0
+13,2870159529,"2023-04-26 07:20:18",ripeti,ripetere,empty,ripetere,empty,0,0,0
+14,2870159529,"2023-04-26 07:20:27",ripeti,ripetere,empty,ripetere,empty,0,0,0
+15,2870159529,"2023-04-26 07:20:45",ripeti,ripetere,empty,ripetere,empty,0,0,0
+16,2870159529,"2023-04-26 07:21:03",ripeti,ripetere,empty,ripetere,empty,0,0,0
+17,2870159529,"2023-04-26 07:21:39","leggi scuole dell'infanzia centri estivi",leggere,"scuole,infanzia,centri,estivi",leggere,"scuole,estivi,centri",1,0,0
+18,2870159529,"2023-04-26 07:22:41","leggi centri estivi estivi scuole primarie",leggere,"centri,estivi,estivi,scuole,primarie",leggere,"centri,estivi,estivi,scuole,primarie",0,0,0
+19,2870159529,"2023-04-26 07:22:56","leggi primo paragrafo",leggere,"primo,paragrafo",leggere,paragrafo,1,0,0
+20,2870159529,"2023-04-26 07:24:15","vai all'inizio",navigare,inizio,navigare,"all',inizio",1,0,0
+21,2870159529,"2023-04-26 07:24:56","viaggi più visitati",leggere,"viaggi,visitati",leggere,visitati,1,0,0
+22,2870159529,"2023-04-26 07:25:09","leggi area b",leggere,area,leggere,"area,b",1,0,0
+23,2870159529,"2023-04-26 07:26:01",guanti,leggere,guanti,not_found,not_found,1,0,1
+24,2870159529,"2023-04-26 07:26:20","leggi area b",leggere,area,leggere,"leggi,area,b",1,0,0
+25,2870159529,"2023-04-26 07:26:57","leggi area b",leggere,area,leggere,"leggi,area,b",1,0,0
+26,2870159529,"2023-04-26 07:29:08","500 internal server error
+
+server got itself in trouble",leggere,"500,internal,server,server,got,trouble",aiutare,"keyword,server",1,1,1
+27,2870159529,"2023-04-26 07:29:11","vai all'inizio",navigare,inizio,navigare,"all',inizio",1,0,0
+28,2870159529,"2023-04-26 07:29:43","vai a notizie",navigare,notizie,leggere,notizie,1,0,0
+29,2870159529,"2023-04-26 07:29:56","leggi notizie",leggere,notizie,leggere,notizie,0,0,0
+30,2870159529,"2023-04-26 07:30:59","leggi sviluppo economico",leggere,"sviluppo,economico",leggere,"sviluppo,economico",0,0,0
+31,2870159529,"2023-04-26 07:31:16","leggi pagina",leggere,pagina,leggere,pagina,0,0,0
+32,2870159529,"2023-04-26 07:32:06","leggi sviluppo economico",leggere,"sviluppo,economico",leggere,"sviluppo,economico",0,0,0
+33,2870159529,"2023-04-26 07:32:40",indietro,navigare,indietro,navigare,indietro,0,0,0
